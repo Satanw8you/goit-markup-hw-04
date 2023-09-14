@@ -132,7 +132,13 @@ header .container {
 .title-conteiner {
   background-color: #2e2f42;
   padding: 188px 0;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mainbackground.jpg);
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
+
 .title-header {
   color: #ffffff;
   text-align: center;
@@ -165,6 +171,7 @@ header .container {
   margin-right: auto;
   margin-left: auto;
   margin-top: 48px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .title-conteiner-button:hover,
