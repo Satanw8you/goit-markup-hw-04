@@ -47,7 +47,7 @@ img {
   padding: 0 15px;
 }
 
-.header-inner {
+header .container {
   display: flex;
   justify-content: space-between;
 }
